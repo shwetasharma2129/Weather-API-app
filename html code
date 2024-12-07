@@ -1,0 +1,32 @@
+//html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced Weather App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Advanced Weather App</h1>
+  <div class="weather-app">
+    <div class="search-container">
+      <input type="text" id="city-input" placeholder="Enter city name" />
+      <button id="search-btn">Search</button>
+      <button id="geo-btn">Use My Location</button>
+    </div>
+    <div class="weather-info" id="current-weather">
+      <h2 id="city-name"></h2>
+      <p id="temperature"></p>
+      <p id="description"></p>
+      <img id="icon" alt="Weather Icon" />
+      <button id="unit-toggle">°C / °F</button>
+    </div>
+    <div id="forecast-container">
+      <h3>5-Day Forecast</h3>
+      <div id="forecast"></div>
+    </div>
+  </div>
+  <script src="first.js"></script>
+</body>
+</html>
